@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>race it</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1, user-scalable=no" />
+    </head>
+
+    <body>
+        <div id="area"></div>
+        <div id="hindernis"></div>
+        <img id="car" src="car.png" alt="car" width="30px">
+        <p>speed</p>
+        <input id="speed" type="range" min="1" max="10" value="7">
+        <p>turnspeed</p>
+        <input id="turnspeed" type="range" min="1" max="10" value="3">
+        <p>driften</p>
+        <input id="driften" type="range" min="1" max="10" value="10">
+        <h1 id="score">score: 0</h1>
+        <button id="reset">reset</button>
+        <button id="buttonleft" class="mobile">&lt;</button>
+        <button id="buttonright" class="mobile">&gt;</button>
+    </body>
+</html>
